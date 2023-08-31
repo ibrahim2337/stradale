@@ -2,8 +2,8 @@ import logo from "../../assets/icons/star.png"
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar py-5 lg:px-20 pe-5">
+    <div className="">
+      <div className="navbar fixed z-10 bg-black/50 text-white py-5 lg:px-20 pe-5">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

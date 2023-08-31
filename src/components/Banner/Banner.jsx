@@ -8,12 +8,12 @@ import image2 from "../../assets/banner/banner2.png"
 import image3 from "../../assets/banner/banner3.png"
 import image4 from "../../assets/banner/banner4.png"
 import image5 from "../../assets/banner/banner5.png"
-import Image from "next/image";
+
 
 
 const Banner = () => {
   return (
-    <div className="relative text-white text-[20px] w-full mx-auto">
+    <div className="relative text-white text-[20px] w-full mx-auto ">
     <Carousel
         emulateTouch={true}
         autoPlay={true}
@@ -39,44 +39,44 @@ const Banner = () => {
         )}
     >
         <div>
-            <Image height={1800} width={2800}
-                alt=""
-                src={image2}
-                className="aspect-[16/10] md:aspect-auto object-cover"
-            />
-           
-        </div>
-
-        <div>
-            <Image height={1800} width={2800}
-                alt=""
-                src={image3}
-                className="aspect-[16/10] md:aspect-auto object-cover"
-            />
-           
-        </div>
-
-        <div>
-            <Image height={1800} width={2800}
+            <img 
                 alt=""
                 src={image1}
-                className="aspect-[16/10] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+            />
+           
+        </div>
+
+        <div>
+            <img 
+                alt=""
+                src={image2}
+                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+            />
+           
+        </div>
+
+        <div>
+            <img 
+                alt=""
+                src={image3}
+                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
             />
             
         </div>
         <div>
-            <Image height={1800} width={2800}
+            <img 
                 alt=""
                 src={image4}
-                className="aspect-[16/10] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
             />
             
         </div>
         <div>
-            <Image height={1800} width={2800}
+            <img 
                 alt=""
                 src={image5}
-                className="aspect-[16/10] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
             />
             
         </div>
