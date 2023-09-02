@@ -42,7 +42,7 @@ const Banner = () => {
             <img 
                 alt=""
                 src={image1}
-                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[620px] md:aspect-auto object-cover"
             />
            
         </div>
@@ -51,7 +51,7 @@ const Banner = () => {
             <img 
                 alt=""
                 src={image2}
-                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[620px] md:aspect-auto object-cover"
             />
            
         </div>
@@ -60,7 +60,7 @@ const Banner = () => {
             <img 
                 alt=""
                 src={image3}
-                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[620px] md:aspect-auto object-cover"
             />
             
         </div>
@@ -68,7 +68,7 @@ const Banner = () => {
             <img 
                 alt=""
                 src={image4}
-                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[620px] md:aspect-auto object-cover"
             />
             
         </div>
@@ -76,7 +76,7 @@ const Banner = () => {
             <img 
                 alt=""
                 src={image5}
-                className="aspect-[16/10] h-[600px] md:aspect-auto object-cover"
+                className="aspect-[16/10] h-[620px] md:aspect-auto object-cover"
             />
             
         </div>
