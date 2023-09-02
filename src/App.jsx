@@ -8,6 +8,7 @@ import Listitem from "./components/ListItems1/Listitem";
 import Blogs from "./components/Blogs/Blogs";
 import Banner from "./components/Banner/Banner";
 
+
 function App() {
   return (
     <div className="bg-black">
@@ -19,6 +20,7 @@ function App() {
       <Listitem />
       <Blogs />
       <Footer />
+      
     </div>
   );
 }

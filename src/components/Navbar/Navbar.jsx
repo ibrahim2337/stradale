@@ -1,4 +1,4 @@
-import logo from "../../assets/icons/star.png"
+import logo from "../../assets/icons/icon.png"
 
 const Navbar = () => {
   return (
@@ -46,7 +46,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex">
-          <img src={logo} alt="" className="h-8"/>
+          <img src={logo} alt="" className="h-10"/>
           <a className="lg:text-2xl text-lg text-white">S T R A D A L A</a>
           </div>
         </div>

@@ -1,10 +1,10 @@
-import logo from "../../assets/icons/star.png";
+import logo from "../../assets/icons/icon.png";
 const Footer = () => {
   return (
     <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-32 gap-10 items-center text-center py-10 mt-20">
       <div>
         <div className="flex justify-center">
-          <img src={logo} alt="" className="h-8" />
+          <img src={logo} alt="" className="h-10" />
           <a className="lg:text-2xl text-xl text-white">S T R A D A L A</a>
         </div>
         
